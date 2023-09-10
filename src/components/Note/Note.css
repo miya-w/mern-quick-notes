@@ -1,0 +1,51 @@
+.note-container {
+    display: flex;
+    align-items: center;
+    padding: 1vmin;
+    margin: 1vmin 0;
+    background-color: var(--tan-1);
+    border: .1vmin solid var(--tan-3);
+    border-radius: 1vmin;
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+  }
+  
+  .note-container input {
+    width: 156.75vmin;
+  }
+  
+  .note-date {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .delete-note {
+    position: absolute;
+    right: 27px;
+    font-size: 14px;
+  }
+  
+  .delete-note:hover, .edit-note:hover {
+    transform: scale(1.1);
+  }
+  
+  .delete-note:active, .edit-note:active  {
+    background-color: rgb(28, 28, 28);
+  }
+  
+  .edit-note {
+    position: absolute;
+    right: 60px;
+    font-size: 14px;
+  }
+  
+  .logout {
+    margin-left: 25px;
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+  }
+  
+  .logout:hover {
+    color: rgba(0, 0, 0, 0.7)
+  }
